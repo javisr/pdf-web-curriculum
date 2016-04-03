@@ -1,16 +1,16 @@
 var gulp = require('gulp'),
   gulpLoadPlugins = require('gulp-load-plugins'),
   plugins = gulpLoadPlugins(),
-  runSequence = require('run-sequence');
-var files = {
-  mainStylesheet: 'stylesheets/main.scss',
-  pdfStylesheet: 'stylesheets/pdf.scss',
-  stylesheets: 'stylesheets/*.scss',
-  js: 'js/*js',
-  templates: 'templates/*.html',
-  index: 'index.html',
-  json: '*.json'
-};
+  runSequence = require('run-sequence'),
+  files = {
+    mainStylesheet: 'stylesheets/main.scss',
+    pdfStylesheet: 'stylesheets/pdf.scss',
+    stylesheets: 'stylesheets/*.scss',
+    js: 'js/*js',
+    templates: 'templates/*.html',
+    index: 'index.html',
+    json: '*.json'
+  };
 
 gulp.task('clean', function() {
   return gulp.src('css')

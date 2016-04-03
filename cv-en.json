@@ -94,6 +94,16 @@
     "projects": ["cexma", "acd", "gva"]
   }],
   "projects": {
+    "PlanAvanza-SnowdropTools": {
+      "title": "​Snowdrop Tools",
+      "client": "Snowdrop Solutions (UK)",
+      "from": "2015-02-01",
+      "to": "present",
+      "role": "Senior Developer",
+      "description": "​R+D project for widget generation by users. The widget could be configured to have map's advanced searching tools",
+      "role_description": "The main goal of the project is to provide to SnowdropSolutions a tool able to generate  maps with a set of advanced searching tools configured from json data. The widget is done in BackboneJS and use Gulp + Webpack to bundle all in only one file. To generate the JSON config we have developed a web application using NodeJS an Angular as well as some Google Clould tools such as Appengine and DataStore. My primary responsibilities includes the design of the project architecture and development of it, developing some of the widget 's main tools and supporting to other mates in their tasks and learning.",
+      "technologies": ["JavaScript", "BackboneJS", "AngularJS", "Webpack", "Babel", "Gulp", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "NodeJS"]
+    },
     "eurostar": {
       "title": "​Eurostar Livemap",
       "client": "​Eurostar (UK)",
@@ -109,17 +119,9 @@
       "from": "2015-07-01",
       "to": "present",
       "role": "Senior Developer",
+      "role_description": "​I design the architecture of this proyect. We developed a multilingual Angular directive using D3 to resolve all the graphics requirements on top of Google Maps. Our widget provided an AngularJS service in order to allow the comunication with the other components of the proyect.",
       "description": "​Widget for the visualization of Ryanair routes. This widget allows users to select and access to the booking system from the map.",
       "technologies": ["JavaScript", "AngularJS", "D3.js", "Less", "Git", "Google Maps API v3", "SCRUM"]
-    },
-    "PlanAvanza-SnowdropTools": {
-      "title": "​Snowdrop Tools",
-      "client": "Snowdrop Solutions (UK)",
-      "from": "2015-02-01",
-      "to": "present",
-      "role": "Senior Developer",
-      "description": "​R+D project for widget generation by users. The widget could be configured to have map's  advanced searching tools",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "Java", "Maven"]
     },
     "nrhs": {
       "title": "​NetworkRail High Speed (UK)",
@@ -137,6 +139,7 @@
       "to": "2015-06-01",
       "role": "Senior Developer",
       "description": "​Journey planner widget based on Google Maps for the new Virgin Trains's website.",
+      "role_description": "In this project we developed a widget with a set of tools on top of Google Maps that provide to Virgin Trains users the possibility of planning a point to point journey in UK as well as booking tickets for it. Each tool is a javascript module that is loaded by RequireJS. The widget also provide an api to allow the communication with the rest of the Virgin Trains web page. My main role was the development of some of the tools and services used by all of the widgets componets.",
       "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Bootstrap", "Less", "SCRUM"]
     },
     "jll": {
