@@ -139,7 +139,7 @@
       "to": "2015-06-01",
       "role": "Senior Developer",
       "description": "​Journey planner widget based on Google Maps for the new Virgin Trains's website.",
-      "role_description": "In this project we developed a widget with a set of tools on top of Google Maps that provide to Virgin Trains users the possibility of planning a point to point journey in UK as well as booking tickets for it. Each tool is a javascript module that is loaded by RequireJS. The widget also provide an api to allow the communication with the rest of the Virgin Trains web page. My main role was the development of some of the tools and services used by all of the widgets componets.",
+      "role_description": "In this project we developed a widget with a set of tools on top of Google Maps that provide to Virgin Trains users the possibility of planning a point to point journey in UK as well as booking tickets for it. Each tool is a javascript module that is loaded by RequireJS. The widget also provide an api to allow the communication with the rest of the Virgin Trains web page. My main role was the development of some of the tools and services used by all of the widgets components.",
       "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Bootstrap", "Less", "SCRUM"]
     },
     "jll": {
@@ -148,7 +148,7 @@
       "from": "2015-02-01",
       "to": "2015-04-01",
       "role": "Senior Developer",
-      "description": "​Widget for the JLL data visualization. The widget includes some advanced searching tools in the map.",
+      "description": "The widget was developed from scratch using vanilla javascript. Each tool extends the prototype of a base class with the common behaviors. My primary responsibility was developing components  using the Google Maps Api over a project structure already implemented.",
       "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM"]
     },
     "hp_ipt": {
