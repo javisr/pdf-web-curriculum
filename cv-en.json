@@ -148,7 +148,8 @@
       "from": "2015-02-01",
       "to": "2015-04-01",
       "role": "Senior Developer",
-      "description": "The widget was developed from scratch using vanilla javascript. Each tool extends the prototype of a base class with the common behaviors. My primary responsibility was developing components  using the Google Maps Api over a project structure already implemented.",
+      "description": "​Widget for the JLL data visualization. The widget includes some advanced searching tools in the map.",
+      "role_description": "The widget was developed from scratch using vanilla javascript. Each tool extends the prototype of a base class with the common behaviors. My primary responsibility was developing components  using the Google Maps Api over a project structure already implemented.",
       "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM"]
     },
     "hp_ipt": {
