@@ -53,9 +53,18 @@
     }
   },
   "professional_experience": [{
+    "title": "Desarrollador Web Full Stack",
+    "from": "2015-10-03",
+    "to": "Actualidad",
+    "company": {
+      "name": "Ping-Tech",
+      "url": "http://ping-tech.net/"
+    },
+    "description": "Desarrollador web e integrador de APIs con herramientas internas."
+  }, {
     "title": "Programador Javascript Senior",
     "from": "2015-02-09",
-    "to": "actualidad",
+    "to": "2016-09-30",
     "company": {
       "name": "Snowdrop Solutions",
       "url": "http://www.snowdropsolutions.co.uk/"
@@ -65,7 +74,7 @@
   }, {
     "title": "Programador Javascript y Drupal Senior",
     "from": "2014-09-01",
-    "to": "actualidad",
+    "to": "2016-09-30",
     "company": {
       "name": "Emergya",
       "url": "http://www.emergya.es/"
@@ -94,11 +103,29 @@
     "projects": ["cexma", "acd", "gva"]
   }],
   "projects": {
+    "VisitWales.com-MapViewer": {
+      "title": "VisitWales.com MapViewer",
+      "client": "VisitWales.com",
+      "from": "2016-07-30",
+      "to": "2016-09-30",
+      "role": "Senior Developer",
+      "description": "​Widget para la visualización de datos de VisitWales.com. En widget incluye busquedas avanzadas en el mapa e integraciones configurables con diferentes APIs.",
+      "technologies": ["JavaScript", "BackboneJS", "AngularJS", "Webpack", "Babel", "Gulp", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "NodeJS"]
+    },
+    "PlanAvanza-SnowdropTools": {
+      "title": "​Snowdrop Tools",
+      "client": "Snowdrop Solutions (UK)",
+      "from": "2015-02-01",
+      "to": "2016-09-30",
+      "role": "Senior Developer",
+      "description": "Proyecto I+D para reducir en tiempo de desarrollo de widget basados en Google Maps así como permitir su posterior y total configuracón por parte de los clientes.  ​",
+      "technologies": ["JavaScript", "BackboneJS", "AngularJS", "Webpack", "Babel", "Gulp", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "NodeJS"]
+    },
     "eurostar": {
       "title": "​Eurostar Livemap",
       "client": "​Eurostar (UK)",
       "from": "2015-08-15",
-      "to": "actualidad",
+      "to": "2015-12-31",
       "role": "Programador Senior",
       "description": "​Widget para la visualización de la posición ​de los trenes de alta velocidad, operado por Eurostar, en el sistema de entretenimiento de a bordo, así como lugares de interés definidos por el cliente.",
       "technologies": ["JavaScript", "AngularJS", "Less", "Git", "Google Maps API v3", "Google Maps Static API", "turfjs", "GeoJSON", "SCRUM"]
@@ -107,19 +134,10 @@
       "title": "​Ryanair RouteMap",
       "client": "​Ryanair (IRL)",
       "from": "2015-07-01",
-      "to": "actualidad",
+      "to": "2015-12-31",
       "role": "Programador Senior",
       "description": "​Widget para la visualización de las rutas que opera Ryanair en su nuevo portal por lo que tendrá una gran visibilidad. Permite filtrar vuelos y es un punto de acceso al sistema de booking de vuelos de Ryanair.",
       "technologies": ["JavaScript", "AngularJS", "D3.js", "Less", "Git", "Google Maps API v3", "SCRUM"]
-    },
-    "PlanAvanza-SnowdropTools": {
-      "title": "​Snowdrop Tools",
-      "client": "Snowdrop Solutions (UK)",
-      "from": "2015-02-01",
-      "to": "actualidad",
-      "role": "Programador Senior",
-      "description": "​Proyecto I+D para la creación de un servicio de mapas en la nube donde el usuario pueda crear mapas personalizados con funciones de busqueda avanzada.",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "Java", "Maven"]
     },
     "nrhs": {
       "title": "​NetworkRail High Speed (UK)",

@@ -13,7 +13,7 @@
     },
     "location": "Seville, Spain"
   },
-  "summary": "As a web application expert developer, with more than three years of experience, I have been involved in almost all development states of a project such as analysis, architecture and backend and frontend development. I consider  myself a self-taught person in continuous training and I have focused my career in the frontend technologies especially Javascript, AngularJS and Google Maps. <br>For last two years I have improve my professionals skills by working on international projects for companies like HP, Ryanair or Virgins Trains.",
+  "summary": "As a web application expert developer, with more than four years of experience, I have been involved in almost all development states of a project such as analysis, architecture and backend and frontend development. I consider  myself a self-taught person in continuous training and I have focused my career in the frontend technologies especially Javascript, AngularJS and Google Maps. <br>For last two years I have improve my professionals skills by working on international projects for companies like HP, Ryanair or Virgins Trains.",
   "skills": [{
     "name": "Javascript",
     "level": 8
@@ -53,19 +53,28 @@
     }
   },
   "professional_experience": [{
+    "title": "Full Stack Web Developer",
+    "from": "2015-10-03",
+    "to": "present",
+    "company": {
+      "name": "Ping-Tech",
+      "url": "http://ping-tech.net/"
+    },
+    "description": "Web developer and APIs integrator with internals tools. "
+  }, {
     "title": "Senior Javascript Developer",
     "from": "2015-02-09",
-    "to": "present",
+    "to": "2016-09-30",
     "company": {
       "name": "Snowdrop Solutions",
       "url": "http://www.snowdropsolutions.co.uk/"
     },
-    "description": "Developer of widgets and web applications, based on Google and Javascript technologies like AngularJS and Google Maps V3.",
-    "projects": ["ryanair_routemap", "letmemap", "vt_jp", "jll", "inmarsat_coverage"]
+    "description": "Develop of widgets and web applications, based on Google and Javascript technologies like AngularJS and Google Maps V3.",
+    "projects": ["VisitWales.com-MapViewer", "PlanAvanza-SnowdropTools", "eurostar", "ryanair_routemap", "nrhs", "vt_jp", "jll", "inmarsat_coverage"]
   }, {
     "title": "Javascript and Drupal Senior Developer",
     "from": "2014-09-01",
-    "to": "present",
+    "to": "2016-09-30",
     "company": {
       "name": "Emergya",
       "url": "http://www.emergya.es/"
@@ -94,21 +103,31 @@
     "projects": ["cexma", "acd", "gva"]
   }],
   "projects": {
+    "VisitWales.com-MapViewer": {
+      "title": "VisitWales.com MapViewer",
+      "client": "VisitWales.com",
+      "from": "2016-07-30",
+      "to": "2016-09-30",
+      "role": "Senior Developer",
+      "description": "​Widget for VisitWales.com data visualization. The widget includes advanced searching tools in the map and integrations with differents APIs. This tool provides to visitwales.com users the possibility of searching for accommodation, activities, restaurants, etc. in a map",
+      "role_description": "I design the architecture of this project using the Snowdrop framework.",
+      "technologies": ["JavaScript", "BackboneJS", "AngularJS", "Webpack", "Babel", "Gulp", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "NodeJS"]
+    },
     "PlanAvanza-SnowdropTools": {
       "title": "​Snowdrop Tools",
       "client": "Snowdrop Solutions (UK)",
       "from": "2015-02-01",
-      "to": "present",
+      "to": "2016-09-30",
       "role": "Senior Developer",
       "description": "​R+D project for widget generation by users. The widget could be configured to have map's advanced searching tools",
-      "role_description": "The main goal of the project is to provide to SnowdropSolutions a tool able to generate  maps with a set of advanced searching tools configured from json data. The widget is done in BackboneJS and use Gulp + Webpack to bundle all in only one file. To generate the JSON config we have developed a web application using NodeJS an Angular as well as some Google Clould tools such as Appengine and DataStore. My primary responsibilities includes the design of the project architecture and development of it, developing some of the widget 's main tools and supporting to other mates in their tasks and learning.",
+      "role_description": "My main goal in the project is to implements a javascript framework in order to allow SnowdropSolutions to generate maps with a set of advanced searching tools configured from json data. The widget is done in BackboneJS and use Gulp + Webpack to bundle all in only one file. To generate the JSON config we have developed a web application using NodeJS an Angular as well as some Google Clould tools such as Appengine and DataStore. My primary responsibilities includes the design of the project architecture and development of it, developing some of the widget 's main tools and supporting to other mates in their tasks and learning.",
       "technologies": ["JavaScript", "BackboneJS", "AngularJS", "Webpack", "Babel", "Gulp", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "NodeJS"]
     },
     "eurostar": {
       "title": "​Eurostar Livemap",
       "client": "​Eurostar (UK)",
       "from": "2015-08-15",
-      "to": "present",
+      "to": "2015-12-31",
       "role": "Senior Developer",
       "description": "​Widget for the visualization of Eurostar hight speed train position and customer defined interest points deployed inside the entertaiment train system.",
       "technologies": ["JavaScript", "AngularJS", "Less", "Git", "Google Maps API v3", "Google Maps Static API", "turfjs", "GeoJSON", "SCRUM"]
@@ -117,7 +136,7 @@
       "title": "​Ryanair RouteMap",
       "client": "​Ryanair (IRL)",
       "from": "2015-07-01",
-      "to": "present",
+      "to": "2015-12-31",
       "role": "Senior Developer",
       "role_description": "​I design the architecture of this proyect. We developed a multilingual Angular directive using D3 to resolve all the graphics requirements on top of Google Maps. Our widget provided an AngularJS service in order to allow the comunication with the other components of the proyect.",
       "description": "​Widget for the visualization of Ryanair routes. This widget allows users to select and access to the booking system from the map.",
